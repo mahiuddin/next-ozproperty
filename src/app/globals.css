@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-main-color{
+  background-color: #F9B537;
+}
+
+.text-main-color{
+   color: #F9B537;
+}
