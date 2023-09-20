@@ -47,18 +47,18 @@ function Main() {
 
       <div className='grid grid-cols-2 bg-gray-50 py-3 ps-10 text-left'>
       <div>
-        <p className='mt-6 text-3xl font-extrabold '>What's in the guide?</p>
+        <p className='mt-6 text-3xl font-extrabold pb-5'>What's in the guide?</p>
         <p>
         Get a sense of property values in the area by looking at market activity, review trends over time, and compare prices from recent sales.
         </p>
-        <ul>
+        <ol className='grid grid-cols-2 pt-5 ps-10 list-disc'>
           <li>Market trends</li>
           <li>Comparable sales</li>
           <li>Agency contacts</li>
           <li>Property price estimate</li>
           <li>Market statistics</li>
           <li>Market activity</li>
-        </ul>
+        </ol>
       </div>
       <div className='text-center mx-auto'>
       <Image
